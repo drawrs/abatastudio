@@ -387,10 +387,10 @@ a:focus {
 
 .hero-carousel .carousel-inner .item-1 {
   background-image: url("../images/mosque-bg-1.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: inherit;
+  -moz-background-size: inherit;
+  -o-background-size: inherit;
+  background-size: inherit;
   background-position-y: -100px;
 }
 
@@ -1014,7 +1014,7 @@ a:focus {
     margin-bottom: 0;
   }
   .hero-carousel {
-    height: 660px;
+    height: 560px;
   }
   .hero-section .carousel-inner {
     height: 660px;
